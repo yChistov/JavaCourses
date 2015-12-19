@@ -10,17 +10,17 @@ public class Task_2 {
 
         System.out.print("Enter something:\n");
         int x = scanner.nextInt();
-        System.out.println("You printed:\n" + x);
+        System.out.println("You printed:\nx = " + x);
 
         System.out.print("Enter something:\n");
         int y = scanner.nextInt();
-        System.out.println("You printed:\n" + x);
+        System.out.println("You printed:\ny = " + x);
 
         Scanner src = new Scanner(System.in);
 
         System.out.print("Enter something:\n");
         String  z = src.nextLine();
-        System.out.println("You printed:\n" + z);
+        System.out.println("You printed:\nz = " + z);
 
 
         System.out.println("\n(x + y) = " + (x + y));
