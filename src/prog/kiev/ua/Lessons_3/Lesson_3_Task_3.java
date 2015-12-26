@@ -1,9 +1,14 @@
-package prog.kiev.ua;
+package prog.kiev.ua.Lessons_3;
+/*
+Задача 3:
+1. Ввести с клавиатуры массив из 10 чисел.
+2. Разбить его на 2 массива равной длинны.
+3. Отсортировать каждую из половинок и вывести их содержимое на экран.*/
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lesson3_Task1 {
+public class Lesson_3_Task_3 {
 
     public static void main(String[] args) {
         Scanner src = new Scanner(System.in);
@@ -28,9 +33,13 @@ public class Lesson3_Task1 {
         arr[8] = src.nextInt();
         System.out.println("Enter Tenth number");
         arr[9] = src.nextInt();
-        System.out.println("Your array = " + Arrays.toString(arr));
-        Arrays.sort(arr);
-        System.out.println("Sort array = " + Arrays.toString(arr));
+
+        int arr1[] = Arrays.copyOfRange(arr, 0, arr.length -5);
+        Arrays.sort(arr1);
+        int arr2[] = Arrays.copyOfRange(arr, 5, arr.length);
+        Arrays.sort(arr2);
+        System.out.println(Arrays.toString(arr1));
+        System.out.println(Arrays.toString(arr2));
         src.close();
     }
 }

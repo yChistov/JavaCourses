@@ -1,8 +1,10 @@
-package prog.kiev.ua;
+package prog.kiev.ua.Lessons_3;
+
+/* Написать код для зеркального переворота массива (1,2,3,4) -> (4,3,2,1).*/
 
 import java.util.Arrays;
 
-public class Lesson3_Task5 {
+public class Lesson_3_Task_5 {
     public static void main(String[] args) {
 
         int[] arr1 = {1,2,3,4};

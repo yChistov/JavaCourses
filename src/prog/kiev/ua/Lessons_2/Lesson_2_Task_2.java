@@ -1,8 +1,13 @@
-package prog.kiev.ua;
+package prog.kiev.ua.Lessons_2;
+/*
+1. Прочитать с консоли число 1
+2. Прочитать с консоли число 2
+3. Вывести результат
+4. И так для каждого оператора */
 
 import java.util.Scanner;
 
-public class Task_2 {
+public class Lesson_2_Task_2 {
 
     public static void main(String[] args) {
 
