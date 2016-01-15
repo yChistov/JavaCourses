@@ -10,6 +10,6 @@ public class Lessons_6_Task_5 {
         System.out.println("Enter a number in binary format: ");
         String binary = scanner.nextLine();
         int number = Integer.parseInt(binary, 2);
-        System.out.println("'" + binary + "' -> " + number);
+        System.out.println("('" + binary + "' -> " + number + ")");
     }
 }
