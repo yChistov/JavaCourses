@@ -20,4 +20,22 @@ public class StudentList {
 		
 		return -1;
 	}
+
+	public int findSurname(String surname){
+		for (int i = 0; i < p; i++) {
+			if (list[i].getSurname().equalsIgnoreCase(surname))
+				return i;
+		}
+
+		return -1;
+	}
+
+	public int findBirth(String birth){
+		for (int i = 0; i < p; i++) {
+			if (list[i].getBirth().equals(birth))
+				return i;
+		}
+
+		return -1;
+	}
 }
