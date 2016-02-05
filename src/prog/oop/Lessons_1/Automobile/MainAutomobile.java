@@ -1,4 +1,4 @@
-package prog.oop.Lessons_1_Task_3;
+package prog.oop.Lessons_1.Automobile;
 
 public class MainAutomobile {
     public static void main(String[] args) {

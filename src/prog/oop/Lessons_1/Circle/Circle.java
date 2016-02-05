@@ -1,4 +1,4 @@
-package prog.oop.Lessons_1_Task_1;
+package prog.oop.Lessons_1.Circle;
 
 /* Написать класс Circle (круг)по аналогии с Rectangleи метод, который будет возвращать его площадь.*/
 

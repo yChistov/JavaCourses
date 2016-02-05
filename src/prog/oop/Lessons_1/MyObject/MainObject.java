@@ -1,4 +1,4 @@
-package prog.oop.Lessons_1_Task_2;
+package prog.oop.Lessons_1.MyObject;
 
 import java.util.Scanner;
 
