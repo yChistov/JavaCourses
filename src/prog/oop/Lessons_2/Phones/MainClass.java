@@ -1,5 +1,9 @@
 package prog.oop.Lessons_2.Phones;
 
+/*      Написать класс наследник SamsungS4 с диагональю
+        экрана 5 дюймов, поддержкой Wifi и методом отправки
+        SMS, который будет дописывать к сообщению слово
+        “Hello”.*/
 
 public class MainClass {
 
@@ -24,5 +28,13 @@ public class MainClass {
         System.out.println("IPhone screent size: " + iphone5.getScreenSize());
         iphone5.call("123-45-67");
         iphone5.sendSMS("567-78-89", "text message");
+
+        System.out.println("----------------------------------");
+
+        SamsungS4 samsungS4 = new SamsungS4();
+        System.out.println("SamsungS4 screent size: " + samsungS4.getScreenSize());
+        samsungS4.call("123-45-67");
+        samsungS4.call("123-45-67");
+        samsungS4.sendSMS("567-78-89", "text message");
     }
 }
