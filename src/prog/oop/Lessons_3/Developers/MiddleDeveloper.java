@@ -1,5 +1,8 @@
 package prog.oop.Lessons_3.Developers;
 
+/*		Написать своего наследника Developer. Добавить его в
+		существующий проект.*/
+
 public class MiddleDeveloper extends Developer {
 
 	public MiddleDeveloper(String name, double basicSalary, int experience) {
