@@ -1,5 +1,7 @@
 package prog.oop.Lessons_3.Developers;
 
+import prog.oop.Lessons_3.Developers.Developer;
+
 public class SeniorDeveloper extends Developer {
 
 	public SeniorDeveloper(String name, int basicSalary, int experience) {

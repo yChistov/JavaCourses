@@ -1,5 +1,7 @@
 package prog.oop.Lessons_3.Developers;
 
+import prog.oop.Lessons_3.Developers.Developer;
+
 public class TeamLeadDeveloper extends Developer {
 
 	public TeamLeadDeveloper(String name, double basicSalary, int experience) {
