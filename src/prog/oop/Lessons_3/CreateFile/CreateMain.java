@@ -43,6 +43,7 @@ public class CreateMain {
         try (RandomAccessFile in = new RandomAccessFile(pathFile, "rw")) {
             for (String s : list) {
                 in.writeBytes(s + "\n");
+                System.out.println(s);
             }
         }
     }
