@@ -1,6 +1,7 @@
 package prog.AutoQA.Lessons_2;
 
 import java.util.Collections;
+import java.util.Scanner;
 
 public class Main {
     private enum Direction {
@@ -26,8 +27,11 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("Enter height");
+        Scanner sc = new Scanner(System.in);
+        int height = sc.nextInt();
         Main obj = new Main();
-        obj.consoleDrawTriangle(5);
+        obj.consoleDrawTriangle(height);
     }
 }
 
