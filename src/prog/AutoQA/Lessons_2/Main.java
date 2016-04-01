@@ -32,6 +32,7 @@ public class Main {
         int height = sc.nextInt();
         Main obj = new Main();
         obj.consoleDrawTriangle(height);
+        sc.close();
     }
 }
 
